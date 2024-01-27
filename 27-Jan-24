@@ -48,9 +48,14 @@ def student(firstname, lastname):
 
 student(lastname = 'Abdul Latif', firstname='Ali Abbas')
 
+ages = {"ali":18,"saqib":24}
+del ages ["saqib"]
+print(ages)
+
+
 #function with two arguments
-def add_numbers(num1, num2):
+def add_numbers():
+    num1=int(input("Enter First Number : "))
+    num2=int(input("Enter second Number : "))   
     sum = num1 + num2
-    print("Sum", sum)
-    
-add_numbers(5, 4)    
+    print("Sum :", sum)   
