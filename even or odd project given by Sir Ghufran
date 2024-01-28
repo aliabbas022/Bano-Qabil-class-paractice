@@ -1,0 +1,10 @@
+def evenodd():
+    num1=int(input("Enter Number : "))
+    
+    if (num1 % 2 == 0):
+        print("even")
+    else:
+        print("odd")
+        
+    #Driver's code
+evenodd()
