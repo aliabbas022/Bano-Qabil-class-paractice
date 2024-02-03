@@ -150,6 +150,16 @@ Rodger = Human()
 print(Rodger.attr1)
 Rodger.fun()
 
+class Python:
+	def __init__(self, name, company):
+		self.name = name
+		self.company = company
+	def show(self):
+		print("Hello my name is " + self.name+" and I" +
+			" work in "+self.company+".")
+obj = Python("ALI ABBAS", "N.G.V.S.")
+obj.show()
+
 #class example no 2
 class students:
     name = ""
